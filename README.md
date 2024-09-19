@@ -1,2 +1,2 @@
 # [WHACK A MOLE]
-![whack-a-mole-sample](game.png)
+Learning Game Development with JavaScript
