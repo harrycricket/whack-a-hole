@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url('background.png');
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+#board {
+  display: flex;
+  width: 540px;
+  height: 540px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  background-image: url('soil.png');
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#board div {
+  width: 180px;
+  height: 180px;
+  background-image: url('potted.png');
+  background-size: cover;
+}
+
+#board div img {
+  width: 100px;
+  height: 100px;
+  cursor: url('hammer.png'), pointer;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -ms-user-select: none;
+}
